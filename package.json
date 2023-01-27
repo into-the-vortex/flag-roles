@@ -1,0 +1,38 @@
+{
+  "name": "@builtbyfrancis/flagroles",
+  "version": "1.0.2",
+  "description": "Simple Role Smart Contract for Solidity",
+  "files": [
+    "/contracts/FlagRoles.sol"
+  ],
+  "scripts": {
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "compile": "npx hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/into-the-vortex/flag-roles.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "roles"
+  ],
+  "author": "VortexLabs <BuiltByFrancis>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/into-the-vortex/flag-roles/issues"
+  },
+  "homepage": "https://github.com/into-the-vortex/flag-roles#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.6", 
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": { 
+    "@openzeppelin/contracts": "^4.8.1"
+  }
+}
